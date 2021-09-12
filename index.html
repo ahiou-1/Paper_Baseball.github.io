@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="/images/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Baseball Project</title>
+  </head>
+
+  <body>
+    <section class="game">
+      <section class="header">
+        <h1 class="welcome">⚾Welcome to Paper Baseball Game.⚾</h1>
+        <span class="rules">You have 10 chances to guess the answer, a 3-digit number.
+          <br>
+          <br>Rules: 
+          <br>#1. Submit your 3-digit number.
+          <br>#2. If your number and the answer doesn't match at any place, "1 out".
+          <br>#3. If your number has a same digit with the answer at a same place, "1 strike".
+          <br>#4. If your number has a same digit with the answer at a different place, "1 ball".
+          <br>#5. You win when you guess the exact Answer. (1 homerun)
+        </span>
+        <p class="stage"><span>Chances:</span> 10</p>
+        <p class="strike"><span>Strike:</span> 0</p>
+        <p class="ball"><span>Ball:</span> 0</p>
+        <p class="out"><span>Out:</span> 0</p>
+        <p class="homerun"><span>Homerun:</span> 0</p>
+        <p class="usernum"><span>History:</span></p>
+        <p class="hint">Hint: check 'console' to find the answer.</p>
+      </section>
+      <section class="banner">
+        <input type="text" maxlength="3" class="input" placeholder="Submit your guess here.">
+        <div class="Btn-wrap">
+          <button class="start">start game</button>
+          <button class="reset">reset game</button>
+        </div>
+      </section>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>

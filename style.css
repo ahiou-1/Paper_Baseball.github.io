@@ -1,0 +1,94 @@
+body {
+  font-family: "Varela Round", sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.game {
+  
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.rules {
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 0px;
+}
+
+p > span {
+  font-weight: bold;
+}
+
+.stage {
+  margin-bottom: 10px;
+}
+
+.stage > span{
+  color: rgb(0, 91, 91);
+  font-weight: 800;
+}
+
+.strike, .ball {
+  margin-bottom: 5px;
+  font-style: italic;
+}
+
+.out {
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.homerun {
+  margin-bottom: 10px;
+}
+
+.usernum {
+  opacity: 0.5;
+}
+
+.hint {
+  margin: 10px 0px 10px 0px;
+  font-style: italic;
+  opacity: 0.3;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.input {
+  visibility: hidden;
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+}
+
+.Btn-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.start {
+  width: 150px;
+  height: 40px;
+  margin-top: 20px;
+}
+
+.reset {
+  visibility: hidden;
+  width: 150px;
+  height: 40px;
+  margin-top: 20px;
+}
